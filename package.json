@@ -1,0 +1,13 @@
+{
+  "name": "techfest-2026",
+  "version": "1.0.0",
+  "description": "TechFest 2026 Fullstack MERN Portal (Security, DevOps & CI/CD)",
+  "scripts": {
+    "install:all": "npm install --prefix client && npm install --prefix server",
+    "test:server": "npm test --prefix server",
+    "build:client": "npm run build --prefix client",
+    "start": "npm start --prefix server"
+  },
+  "author": "Vaishnav M N",
+  "license": "ISC"
+}
