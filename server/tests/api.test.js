@@ -4,9 +4,8 @@ const app = require("../server");
 describe("TechFest 2026 Security & API Tests", () => {
     test("Health Check endpoint returns 200 OK", async () => {
         const response = await request(app).get("/api/health");
-        // DELIBERATE BROKEN TEST FOR LAB MANUAL STEP 11:
-        // Demonstrates red CI pipeline failure on GitHub Actions
-        expect(response.statusCode).toBe(500);
+        // FIXED TEST: Expect 200 OK
+        expect(response.statusCode).toBe(200);
         expect(response.body.status).toBe("healthy");
     });
 
