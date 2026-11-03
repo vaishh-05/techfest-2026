@@ -3,7 +3,7 @@ function Contact() {
         <div className="page">
             <h1>Contact Us</h1>
             <p>Email: techfest2026@mbcet.ac.in</p>
-            <p>Phone: +91 98765 43210</p>
+            <p>Phone: +91 98765 99999 (Main Branch Helpline)</p>
             <p>Venue: MBCET Campus, Thiruvananthapuram</p>
             <div className="coordinator-info">
                 <h3>Student Coordinators</h3>
