@@ -30,7 +30,7 @@ function Registration() {
             setServerMsg("");
 
             try {
-                const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:5000";
+                const apiUrl = import.meta.env.VITE_API_URL || "https://techfest2026-api-9ius.onrender.com";
                 const response = await fetch(`${apiUrl}/api/auth/register`, {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
